@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GOcELgpULjIXoWRNQnm3hqHxexEbHfZaRO3xqUPN/sMet7Zje2yg30hc3Asb7P0E5BJTHWHV1c+1fPvd9xlYAA==",
+  "dgSpecHash": "2SXInZXEwcBaFSEfSnDvmCruB82uyvubvujV8qFzkR+fbqhZi2wO+LSpBR+/zyhCQ1S4rf9rfPZ9H3xys9bt4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\adamb\\Desktop\\Używanie bazy danych z minimalnym interfejsem API, platformą Entity Framework Core i ASP.NET Core\\EFTraining\\EFTraining.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\adamb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\adamb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\adamb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\adamb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\adamb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\adamb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
