@@ -1,7 +1,9 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
+using EFTraining.Models;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items"));
 builder.Services.AddSwaggerGen(c => 
 {
     c.SwaggerDoc("v1",new OpenApiInfo {
@@ -10,7 +12,6 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1"
     });
 });
-
 var app = builder.Build();
 
 app.UseSwagger();
