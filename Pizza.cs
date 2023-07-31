@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 namespace EFTraining.Models
 {
     public class Pizza
